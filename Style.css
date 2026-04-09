@@ -1,0 +1,180 @@
+/*This CSS applies for Log in page*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(221, 221, 194);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background-attachment: fixed;
+  background-color: black;
+  max-height: 300px;
+  min-height: 40px;
+  position-anchor: inherit;
+}
+.links {
+  display: flex;
+  gap: 30px;
+}
+.links a {
+  text-decoration: none;
+  list-style: none;
+  color: red;
+}
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  background-image: url("https://raw.githubusercontent.com/Horizon-17-git/UI-Design/master/Assets/LoginBackground.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.search-container {
+  min-width: 200px;
+  background-color: transparent;
+
+  border-style: double;
+  border-radius: 30px;
+}
+
+.search-container {
+  position: relative; /* This is the 'anchor' for the icon */
+  width: 300px;
+}
+
+.search-container i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  background-color: transparent;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #f10e0e;
+  border-radius: 25px;
+  outline: none;
+  background-color: transparent;
+}
+
+.search-container i {
+  color: red;
+}
+
+.login-box {
+  display: flex;
+  gap: 100px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid black;
+  position: relative;
+  padding: 10%;
+}
+.welcome h1 {
+  font-family:
+    "Inter",
+    Poller One,
+    menbere;
+  font-weight: 900;
+}
+.signup-btn {
+  padding: 12px 12px 12px 10px;
+  border: 1px solid #0fda31;
+  border-radius: 25px;
+  outline: none;
+  align-items: center;
+  min-width: 150px;
+  color: rgb(253, 253, 252);
+  background: rgba(255, 255, 255, 0.1);
+  font-family:
+    "inter",
+    Bebas Neue;
+}
+
+.main {
+  position: relative;
+  padding: 10% 0;
+  color: black;
+  font-family: menbere;
+  font-weight: 800;
+}
+.main input {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 7%;
+  border-bottom: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  min-height: 30px;
+  min-width: 250px;
+}
+.main input:focus {
+  animation: fadeup 0.3s;
+}
+.login-btn {
+  min-width: 300px;
+  min-height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: #34c508;
+  margin: 10px 0;
+}
+.remember-me {
+  display: flex;
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.remember-me input {
+  cursor: pointer;
+  transform: scale(0.6);
+  margin: 5px 0;
+}
+.remember-me span {
+  margin-left: 0;
+  line-height: 1;
+  padding-left: -20%;
+}
+.remember-me:hover span {
+  color: #00d4ff;
+  text-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+  transition: 0.3s;
+}
+.icons {
+  justify-content: cnter;
+}
+.icons a {
+  text-decoration: none;
+  justify-content: space-around;
+  padding: 0 20px;
+  color: white;
+  font-size: 30px;
+}
+.icons:hover {
+}
