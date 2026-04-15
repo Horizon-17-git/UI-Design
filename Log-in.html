@@ -1,14 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page
-    
-    </title>
-    <link rel="stylesheet" href="Log-in.css">
-</head>
-<body>
-    section
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="heading">
+      <h1 class="logo">Group-4</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-container">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="search for projects..."
+        />
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <article class="login-box">
+          <div class="welcome">
+            <h1>Welcome Back!</h1>
+            <button class="signup-btn">Sign Up</button>
+          </div>
+          <div class="main">
+            <div class="form">
+              <label for="name">Email or User name:</label><br />
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter your email"
+              /><br />
+              <label for="password">Password:</label><br />
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+              /><br />
+              <button class="login-btn">Log in</button><br />
+            </div>
+
+            <div class="icons">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our Facebook page"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our Twitter profile"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+
+              <a
+                href="https://instagram.com"
+                aria-label="Visit our Instagram profile"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/horizon___17"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit our LinkedIn profile"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer" id="contact">
+      <p>&copy; 2026 || Mekelle University.</p>
+    </footer>
+  </body>
 </html>

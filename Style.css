@@ -1,0 +1,251 @@
+/*STARTS HERE...*/
+
+/*This CSS applies for Log-in page*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(221, 221, 194);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  background-attachment: fixed;
+  background-color: black;
+  max-height: 300px;
+  min-height: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  list-style: none;
+  color: red;
+  align-items: center;
+}
+nav li {
+  margin: 15px;
+}
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  background-image: url("./Assets/LoginBackground.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+}
+.search-container {
+  min-width: 200px;
+  background-color: transparent;
+  max-height: 39px;
+  border-radius: 30px;
+  position: relative;
+  width: 300px;
+  margin: 6px 0 0 0;
+}
+
+.logo {
+  color: rgb(109, 107, 107);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 35px;
+}
+.search-container i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #db8a11;
+  background-color: transparent;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #f10e0e;
+  border-radius: 25px;
+  outline: none;
+  background-color: transparent;
+}
+.search-container input:active {
+  outline: none;
+}
+
+.search-container i {
+  color: red;
+}
+
+.login-box {
+  display: flex;
+  gap: 100px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid black;
+  position: relative;
+  padding: 10%;
+}
+.welcome h1 {
+  font-family:
+    "Inter",
+    Poller One,
+    menbere;
+  font-weight: 900;
+}
+.signup-btn {
+  padding: 12px 12px 12px 10px;
+  border: 1px solid #0fda31;
+  border-radius: 25px;
+  outline: none;
+  align-items: center;
+  min-width: 150px;
+  color: rgb(253, 253, 252);
+  background: rgba(15, 226, 120, 0.815);
+  font-family:
+    "inter",
+    Bebas Neue;
+  margin: 20px 0;
+}
+/* .form{
+  height: 400px;
+
+} */
+
+.main {
+  position: relative;
+  padding: 10% 0;
+  color: black;
+  font-family: menbere;
+  font-weight: 800;
+}
+.main input {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 7%;
+  border-bottom: 3px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  min-height: 30px;
+  min-width: 250px;
+  outline: none;
+}
+.main input:focus {
+  animation: fadeup 0.3s;
+}
+.login-btn {
+  min-width: 300px;
+  min-height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: #34c508;
+  margin: 10px 0;
+}
+
+.icons {
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.icons a {
+  text-decoration: none;
+  justify-content: space-around;
+  padding: 0 20px;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+.icons a:hover {
+  box-shadow: 0 0 10px white;
+  transition: translateY(-5px);
+}
+.footer {
+  text-align: center;
+
+  background-color: #000;
+  color: white;
+  height: 20vh;
+}
+.footer p {
+  align-items: center;
+  position: relative;
+  top: 80%;
+}
+
+/* 
+this css applies for sign up page */
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.c {
+  display: flex;
+  flex-direction: column;
+  background-image:  url("/UI-Design/Assets/SignupBackground.png");
+  height: 55vh;
+  width: 100%;
+  margin-top: 130px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.x {
+  background-color: transparent;
+  padding: 0 40%;
+  border-radius: 20px;
+  font-size: 27px;
+  color: rgb(29, 6, 112);
+
+  align-items: center;
+}
+.c h3 {
+  color: aqua;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.459);
+  border-radius: 30px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+button {
+  width: 240px;
+  height: 44px;
+  border-radius: 20px;
+  color: rgb(242, 248, 248);
+  background-color: rgb(11, 231, 85);
+  font-size: 20px;
+  padding: 0 25%;
+}
+#password {
+  height: 45px;
+ 
+}
+input {
+  min-width: 350px;
+  height: 45px;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgb(0, 183, 255);
+}
+label{
+  color:aqua;
+  font-weight: bolder;
+  text-shadow: #090316 0 2px;
+}
