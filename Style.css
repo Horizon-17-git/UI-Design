@@ -188,17 +188,11 @@ nav li {
 /* 
 this css applies for sign up page */
 
-body {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+
 .c {
   display: flex;
   flex-direction: column;
-  background-image:  url("/UI-Design/Assets/SignupBackground.png");
+  background-image: url("/UI-Design/Assets/SignupBackground.png");
   height: 55vh;
   width: 100%;
   margin-top: 130px;
@@ -211,7 +205,9 @@ body {
   border-radius: 20px;
   font-size: 27px;
   color: rgb(29, 6, 112);
-
+  color: aqua;
+  font-weight: bolder;
+  text-shadow: #090316 0 2px;
   align-items: center;
 }
 .c h3 {
@@ -223,7 +219,7 @@ body {
   text-align: center;
   margin-bottom: 5px;
 }
-button {
+.buttn {
   width: 240px;
   height: 44px;
   border-radius: 20px;
@@ -232,9 +228,8 @@ button {
   font-size: 20px;
   padding: 0 25%;
 }
-#password {
+.password {
   height: 45px;
- 
 }
 input {
   min-width: 350px;
@@ -244,8 +239,4 @@ input {
   background-color: rgba(255, 255, 255, 0.3);
   border-color: rgb(0, 183, 255);
 }
-label{
-  color:aqua;
-  font-weight: bolder;
-  text-shadow: #090316 0 2px;
-}
+
