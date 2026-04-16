@@ -20,20 +20,25 @@ body {
   max-height: 300px;
   min-height: 40px;
 }
-nav ul {
+nav{
   display: flex;
+  justify-content: space-between;
   gap: 30px;
-  align-items: center;
+  padding-left: 60%;
 }
-nav a {
+
+.help a{
   text-decoration: none;
   list-style: none;
   color: red;
-  align-items: center;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+  padding-top:-10px ;
+
+ 
 }
-nav li {
-  margin: 15px;
-}
+
 .container {
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 40px;
@@ -57,7 +62,7 @@ nav li {
 }
 
 .logo {
-  color: rgb(109, 107, 107);
+  color: rgb(214, 47, 47);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 35px;
 }
