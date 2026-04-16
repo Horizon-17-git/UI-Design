@@ -1,36 +1,80 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>signup</title>
-    <link rel="stylesheet" href="./Style.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up page</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Style.css">
   </head>
-  <body>
-    <div class="c">
-      <h3>SIGN UP</h3>
-      <div class="x">
-        <label for="name">Name :</label>
-        <br />
-        <input type="text" placeholder="Enter name" id="name" required />
-        <br />
-        <label for="email">Email :</label>
-        <br />
-        <input type="email" id="email" placeholder="xxxx@gmail.com" />
-        <br />
-        <label for="password">Password :</label><br />
-        <input  class="password" type="password" id="password" placeholder="password" required />
-        <br />
-        <label for="cofrim">Confrim :</label><br />
-        <input
-          type="password"
-          id="confrim"
-          placeholder="confrim password"
-          required
-        />
-        <br /><br />
-        <a href="#"><button class="buttn">Sign Up</button></a>
+<body>
+  <header class="heading-s">
+     <h2>Join us! AuraX Hub 2026</h2>
+  </header>
+  <main>
+    <section class="container-s">
+      <div class="back">
+        <img width="22%" src="./image copy.png" alt="" />
       </div>
-    </div>
+      <div>
+        <div>
+          
+          <form action="#">
+            <div class="main-s">
+              <div class="column-1">
+                <label for="name">First name</label>
+                <input type="text" name="name" id="name" placeholder="  First name" />
+                <label for="email">E-mail</label>
+                <input type="email" name="name" id="email" placeholder="  Enter your email here"/>
+             
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder="  Enter your password here"
+                />
+              </div>
+              <div class="column-2">
+                <label for="#">Last name</label>
+                <input type="text" name="name" id="name" placeholder="  Last name"/>
+               
+
+                <label for="phone">Phone number</label>
+                <input
+                  type="number"
+                  name="phoneNumber"
+                  id="phone"
+                  placeholder="  Your phone number"
+                />
+                <label for="password">Confirm password</label>
+                <input type="password" name="confirmation" id="password" 
+                placeholder=" Confirm your password"/>
+              </div>
+            </div>
+
+            <div class="btn-s">
+              <input
+                type="submit"
+                name="submit"
+                id="signUp"
+                value="Create Account"
+              />
+            </div>
+            <div class="log">
+              <p>Already have an account?</p>
+              <input type="submit" id="logIn" value="Sign in" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
   </body>
+</body>
 </html>
