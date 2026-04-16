@@ -289,10 +289,11 @@ this css applies for sign up page */
 }
 
 .log input {
-  color: green;
+  color: rgb(73, 9, 248);
   border: none;
   font-size: 20px;
   cursor: pointer;
+  background-color: transparent;
 }
 .log {
   display: flex;
